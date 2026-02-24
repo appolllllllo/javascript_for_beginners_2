@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Введение в DOM</title>
+</head>
+<body>
+
+    <!-- <p id="elem1">1</p>
+    <p id="elem2">2</p>
+    <p id="elem3">3</p> -->
+
+    <!-- <div id="block">
+	<p>1</p>
+	<p>2</p> -->
+
+    <!-- <div class="block">
+	<p>1</p>
+	<p>2</p> -->
+
+    <!-- <p class="www">text</p>
+    <p class="www">text</p> -->
+
+    <!-- <input id="button1" type="submit">
+    <input id="button2" type="submit">
+    <input id="button3" type="submit"> -->
+
+    <!-- <input id="button1" type="submit" 
+	value="button1"> 
+    <input id="button2" type="submit" 
+	value="button2">  -->
+
+    <!-- <p id="elem1">text</p>
+    <p id="elem2">text</p>
+    <p id="elem3">text</p>
+    <p id="elem4">text</p>
+    <p id="elem5">text</p> -->
+
+    <!-- <p id="elem">text</p> -->
+
+    <!-- <p id="elem">Тата</p> -->
+
+    <!-- <p id="text">Я в большей степени фаталист, но считаю, что с судьбой можно и нужно взаимодействовать.</p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <p id="text">Я в большей степени фаталист, но считаю, что с судьбой можно и нужно взаимодействовать.</p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <p id="num1">3</p>
+    <p id="num2">4</p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <p id="num1">2</p>
+    <p id="num2">2</p>
+    <p id="num3">3</p>
+    <div id="sum"></div>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <p id="num">6</p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <p id="text">Привет</p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <p id="elem"><i>text</i></p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id="elem" type="email">
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <a id="link" href="https://www.youtube.com/watch?v=lR3gXh3SJOs&list=PLhOaCg3PsW6FcvrvUokA721U8F8bvkynL&index=23">Биология поведения человека: Лекция #23. Язык [Роберт Сапольски, 2010. Стэнфорд]</a>
+    <p id="text">text</p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <a id="link" href="https://www.youtube.com/watch?v=lR3gXh3SJOs&list=PLhOaCg3PsW6FcvrvUokA721U8F8bvkynL&index=23">Биология поведения человека: Лекция #23. Язык [Роберт Сапольски, 2010. Стэнфорд]</a>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <img id="img" src="shrek.jpg" width="300">
+    <button id="button">Кликни меня</button>
+    <p id="paragraph"></p> -->
+
+    <!-- <img id="img" src="shrek.jpg" width="500">
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <img id="shrek" src="" width="300">
+    <button id="button1">Кликни меня</button>
+
+    <img id="fiona" src="" width="200">
+    <button id="button2">Кликни меня</button> -->
+
+    <!-- <input id="elem" value="">
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id="elem" value="Введите текст...">
+    <p id="paragraph"></p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id="elem1" value="Введите число...">
+    <input id="elem2" value="">
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id="elem1" value="Введите текст...">
+    <input id="elem2" value="Введите текст...">
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id="elem1">
+    <input id="elem2">
+    <input id="elem3">
+    <input id="elem4">
+    <input id="elem5">
+    <p id="paragraph"></p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id="elem" value="Введите число..."> -->
+
+    <!-- <input id="elem" value="Введите число..."> -->
+
+    <!-- <input id="elem" value="Введите текст..."> -->
+
+    <!-- <div id="elem" class="content no-gap"></div>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <div id="elem" class=""></div>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <div id="elem" class="aaa bbb ccc"></div>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <img id="image" src="avatar.png"> -->
+
+    <!-- <input id="elem" value=""> -->
+
+    <!-- <button id="button">1</button> -->
+
+    <!-- <p id="paragraph1">
+        Я помню чудное мгновенье:<br>
+        Передо мной явилась ты,<br>
+        Как мимолетное виденье,<br>
+        Как гений чистой красоты.<br></p>
+    <p id="paragraph2">
+        Мороз и солнце; день чудесный!<br>
+        Еще ты дремлешь, друг прелестный —<br>
+        Пора, красавица, проснись:<br>
+        Открой сомкнуты негой взоры...</p>
+    <p id="paragraph3">
+        Я вас любил: любовь еще, быть может,<br>
+        В душе моей угасла не совсем;<br>
+        Но пусть она вас больше не тревожит;<br>
+        Я не хочу печалить вас ничем.<br></p>
+    <p id="paragraph4">
+        Унылая пора! Очей очарованье!<br>
+        Приятна мне твоя прощальная краса —<br>
+        Люблю я пышное природы увяданье,<br>
+        В багрец и в золото одетые леса.<br></p>
+    <p id="paragraph5">
+        Чем меньше женщину мы любим,<br>
+        Тем легче нравимся мы ей<br>
+        И тем ее вернее губим<br>
+        Средь обольстительных сетей.<br></p> -->
+
+    <!-- <input id="elem1" value="2">
+    <input id="elem2" value="4">
+    <input id="elem3" value="6"> -->
+
+    <!-- <p class="paragraph">
+        Я помню чудное мгновенье:<br>
+        Передо мной явилась ты,<br>
+        Как мимолетное виденье,<br>
+        Как гений чистой красоты.<br></p>
+    <p class="paragraph">
+        Мороз и солнце; день чудесный!<br>
+        Еще ты дремлешь, друг прелестный —<br>
+        Пора, красавица, проснись:<br>
+        Открой сомкнуты негой взоры...</p>
+    <p class="paragraph">
+        Я вас любил: любовь еще, быть может,<br>
+        В душе моей угасла не совсем;<br>
+        Но пусть она вас больше не тревожит;<br>
+        Я не хочу печалить вас ничем.<br></p>
+    <p class="paragraph">
+        Унылая пора! Очей очарованье!<br>
+        Приятна мне твоя прощальная краса —<br>
+        Люблю я пышное природы увяданье,<br>
+        В багрец и в золото одетые леса.<br></p>
+    <p class="paragraph">
+        Чем меньше женщину мы любим,<br>
+        Тем легче нравимся мы ей<br>
+        И тем ее вернее губим<br>
+        Средь обольстительных сетей.<br></p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <p class="paragraph">Я помню чудное мгновенье:</p>
+    <p class="paragraph">Передо мной явилась ты,</p>
+    <p class="paragraph">Как мимолетное виденье,</p>
+    <p class="paragraph">Как гений чистой красоты.</p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input class="num" value="2">
+    <input class="num" value="2">
+    <input class="num" value="3">
+    <p id="paragraph"></p>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div> -->
+
+    <!-- <a id="link" href="https://code.mu/ru/javascript/book/prime/dom/basis/handlers-unbinding/"></a>
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <button id="button">1</button> -->
+
+    <!-- <p>Привет</p>
+    <p>Как дела?</p>
+    <p>Что делаешь?</p> -->
+
+    <!-- <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul> -->
+
+    <!-- <ul>
+	<li>2000</li>
+	<li>2004</li>
+	<li>2021</li>
+	<li>2022</li>
+	<li>2025</li>
+	<li>2031</li>
+    </ul> -->
+
+    <!-- <p>1</p>
+    <p>2</p>
+    <p>3</p> -->
+
+    <!-- <p>1</p>
+    <p>2</p>
+    <p>3</p> -->
+
+    <!-- <p>text</p>
+    <button>click</button> -->
+
+    <!-- <p>1</p>
+    <p>2</p>
+    <p>3</p>
+
+    <button>click</button> -->
+
+    <!-- <p>1</p>
+    <p>2</p>
+    <p>3</p> -->
+
+    <!-- <p>text1</p>
+    <p>text2</p>
+    <p>text3</p>
+    <button>click</button> -->
+
+    <!-- <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    
+    <button>click</button> -->
+
+    <!-- <input>
+    <input>
+    <input>
+
+    <button>click</button> -->
+
+    <!-- <input id="inp1">
+    <input id="inp2">
+    <input id="inp3">
+
+    <button id="btn">click</button> -->
+
+    <!-- <input id="inp1">
+    <input id="inp2">
+    <p id="res"></p>
+    
+    <button id="btn">click</button> -->
+
+    <!-- <input data-text="text1">
+    <input data-text="text2">
+    <input data-text="text3">
+    
+    <button id="btn">click</button> -->
+
+    <!-- <input>
+    <input>
+    <input>
+    
+    <button id="btn">click</button> -->
+
+    <!-- <input>
+    <input>
+    <input>
+    
+    <button id="btn">click</button> -->
+
+    <!-- <input id="inp1">
+    <input id="inp2">
+    <input id="inp3">
+    
+    <button id="btn">click</button> -->
+
+    <!-- <input id="inp"> -->
+
+    <!-- <input id="input">
+    <p id="paragraph"></p> -->
+
+    <!-- <input id = "input">
+    <input id = "input">
+    <input id = "input">
+
+    <p id="paragraph"></p>
+
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id = "input"> -->
+
+    <!-- <input id="fullname">
+    <input id="inp">
+    <input id="inp">
+    <input id="inp"> -->
+
+    <!-- <input id="fullname"> -->
+
+    <!-- <input id="text"> -->
+
+    <!-- <input id="date">  -->
+
+    <!-- <input id="word"> -->
+     
+    <!-- <input id="num"> -->
+
+    <!-- <p></p>
+    <p></p>
+    <p></p>
+
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <a href="https://code.mu/ru/javascript/book/prime/dom/basis/practicum/">Ссылка 1</a>
+    <a href="https://code.mu/ru/javascript/book/prime/dom/basis/practicum/">Ссылка 2</a>
+    <a href="https://code.mu/ru/javascript/book/prime/dom/basis/practicum/">Ссылка 3</a> -->
+
+    <!-- <a href="http://code.mu/ru/javascript/book/prime/dom/basis/practicum/">Ссылка 1</a>
+    <a href="https://code.mu/ru/javascript/book/prime/dom/basis/practicum/">Ссылка 2</a>
+    <a href="https://code.mu/ru/javascript/book/prime/dom/basis/practicum/">Ссылка 3</a> -->
+
+    <!-- <p>1</p>
+    <p>2</p>
+    <p>3</p> -->
+
+    <!-- <input id="date"> -->
+
+    <!-- <input id="number" value="0">
+    <button id="plus">+1</button>
+    <button id="minus">-1</button> -->
+
+    <!-- <input>
+    <p>Первый абзац</p>
+    <p>Второй абзац</p>
+    <p>Третий абзац</p> -->
+
+    <!-- <div>Привет, Таточка</div>
+    <div>Как дела?</div> -->
+
+    <!-- <input id="string">
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id="text">
+    <button id="button">Кликни меня</button> -->
+
+    <!-- <input id="fahrenheit">
+    <button id="button">Кликни меня</button>
+    <p id="paragraph"></p> -->
+
+    <!-- <input id="number">
+    <button id="button">Кликни меня</button>
+    <p id="paragraph"></p> -->
+
+    <input id="a">
+    <input id="b">
+    <input id="c">
+    <button id="button">Кликни меня</button>
+    <p id="paragraph"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
